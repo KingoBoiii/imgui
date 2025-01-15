@@ -5,6 +5,9 @@
 imgui.ini
 imgui*.ini
 
+**/bin/
+bin-int/
+
 ## General build artifacts
 *.o
 *.obj
@@ -15,6 +18,7 @@ examples/*/x64/*
 
 ## Visual Studio artifacts
 .vs
+*.vcxproj*
 ipch
 *.opensdf
 *.log
